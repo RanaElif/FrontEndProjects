@@ -1,0 +1,45 @@
+/*  görseli yuvarlak yapmak için (Kaynak: https://furkangiray.com/gorseli-yuvarlak-yapma/)
+    img.yuvarlak {
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+    } */
+
+ .circle {
+    border-radius:50%;
+    height:75px;
+    width:75px;
+    object-fit:cover;
+}
+
+/* 
+https://emreceyhan.net/blog/resmin-yanina-yazi-yazma-ekleme-css.html
+*/
+
+.class001 {
+    width:900px;
+    margin:auto;
+}
+
+.class001 img {
+    float:left;
+    /* padding:0 10px 10px 0; */ 
+    /* Bunu ekleyince görselin yuvarlağı bozuluyor. Eklemeyince de yazı resme çok yakın duruyor. */
+}
+
+/* https://www.webcebir.com/21-html-yazi-ve-resim-ortalama-dersi.html */
+
+.class002 {
+    text-align:center;
+}
+
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none */
+
+.class003 {
+    list-style-type: none;
+}
+
+li {
+    display:inline-block;
+}
